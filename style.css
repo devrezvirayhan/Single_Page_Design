@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#carusol_secton{
+    margin-top: 78px;
+}
+@media only screen and (max-width:768px){
+    #carusol_secton{
+        margin-top: 112px;
+    }
+}
+@media only screen and (max-width:536px){
+    #carusol_secton{
+        margin-top: 172px;
+    }
+}
+.heading h2{
+    background-color: #1d09425c;
+}
+#discrepatiom{
+    font-size: 17px;
+}
+#navbar_ul li a:hover{
+    background: black;
+    transition: .5s;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.about_me_dis{
+    font-size: 19px;
+    line-height: 37px;
+}
+#team_img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: zoom-in;
+    box-shadow: 2px 4px 5px black;
+
+}
+
+#sectiom{
+    display: none
+}
