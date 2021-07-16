@@ -45,3 +45,7 @@
 #sectiom{
     display: none
 }
+.person-info{
+    background: repeating-linear-gradient(45deg, #90bda6b8, #0000004a 100px);
+    padding: 8px;
+}

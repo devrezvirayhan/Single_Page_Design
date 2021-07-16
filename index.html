@@ -14,39 +14,38 @@
 
 <body>
   <!-- ********************Start Nav Bar Section******************* -->
-  <section id="nav_bar" class="">
-    <div class="container">
-      <header id="hearder">
-        <nav id="nav" class="navbar navbar-expand-sm fixed-top bg-primary">
-          <a class="navbar-brand">
-            <img style="width: 180px; height: auto;" src="img/logo/logo.jpg">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"> <i class="fas fa-align-justify"></i></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul id="navbar_ul" class="navbar nav ml-auto">
-              <li class="nav-item"><a class="nav-link text-white" href="">Home</a></li>
-              <li class="nav-item"><a class="nav-link text-white" href="#service">Service</a></li>
-              <li class="nav-item"><a class="nav-link text-white" href="#about_me">About Me</a></li>
-              <li class="nav-item"><a class="nav-link text-white" href="#favorite_person">Favorite Person</a></li>
-              <li class="nav-item"><a class="nav-link text-white" href="#contact_me">Contact Us</a></li>
-              <!-- ********************Start Joni Section******************* -->
-              <button class="btn btn-warning" data-toggle="modal" data-target="#login">Join Now</button>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark"
+    uk-sticky="top: 200; animation: uk-abuntion-slide-top; buttom: #sticjy-on-scroll-up">
+    <a class="navbar-brand" href="home.html">
+      <img style="width: 200px;" src="img/logo/logo.jpg" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="">Contact Me</a>
+        </li>
+      </ul>
 
-              <!-- ********************End Joni Section******************* -->
-
-            </ul>
-          </div>
-        </nav>
-      </header>
+      <button class="btn btn-warning ml-3" data-toggle="modal" data-target="#login">Join Now</button>
     </div>
-  </section>
+  </nav>
   <!-- ********************End Nav Bar Section******************* -->
   <!-- ********************Start Carusol Section******************* -->
-  <section id="carusol_secton" class="">
+  <section id="carusol_secton" class="mt-0">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -205,35 +204,39 @@
         <img style="width: 170px;" class="rounded-circle" src="img/favorite_person/Imran Sir.jpg" alt="">
         <div class="media-body mt-4 ml-4">
           <h4> Dr. Imran Hossen Sir</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At exercitationem voluptatem nisi aliquam ad
-            consequuntur. Quo quia illum quas ipsam architecto velit cupiditate natus necessitatibus. Blanditiis odit
-            delectus tempora ducimus dolorum architecto itaque ipsa iure.</p>
+          <p class="person-info">Dr. Imran Chowdhury. <b>Founder Infra Polytecnic Institute</b>. Chiairman University Of
+            Global village.
+            <b>(UGV)</b>, The
+            Founder Is <b>Amer Bangladesh Fundation</b>.
+          </p>
         </div>
       </div>
       <div class="media border p-3">
         <div class="media-body mt-4 ml-4">
           <h4> Jhanker Mahmub Brother</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At exercitationem voluptatem nisi aliquam ad
-            consequuntur. Quo quia illum quas ipsam architecto velit cupiditate natus necessitatibus. Blanditiis odit
-            delectus tempora ducimus dolorum architecto itaque ipsa iure.</p>
+          <p class="person-info">Sr.Web Developer Runner (3 Marathons) Author(4x Bestselling in Bangladesh) Youtuber
+            (300k+ Subs) (Teach Web
+            Development) Marketing Enthusias (<b>CEO Progmming-Hero</b>)</p>
         </div>
         <img style="width: 170px;" class="rounded-circle" src="img/favorite_person/Jhanker Mahmub  02.jpg" alt="">
       </div>
       <div class="media border p-3">
         <img style="width: 170px;" class="rounded-circle" src="img/favorite_person/Subbem Sir.jpg" alt="">
         <div class="media-body mt-4 ml-4">
-          <h4>Subben Sir </h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At exercitationem voluptatem nisi aliquam ad
-            consequuntur. Quo quia illum quas ipsam architecto velit cupiditate natus necessitatibus. Blanditiis odit
-            delectus tempora ducimus dolorum architecto itaque ipsa iure.</p>
+          <h4>Tamim Shahriar Subeen.</h4>
+          <p class="person-info">I am Tamim Shahriar (Subeen). Currently working as the Managing Director of Mukto
+            Software Ltd. I have also
+            <b>co-founded Dimik Computing School</b>
+          </p>
         </div>
       </div>
       <div class="media border p-3">
         <div class="media-body mt-4 ml-4">
           <h4>Zaheed Sabur</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At exercitationem voluptatem nisi aliquam ad
-            consequuntur. Quo quia illum quas ipsam architecto velit cupiditate natus necessitatibus. Blanditiis odit
-            delectus tempora ducimus dolorum architecto itaque ipsa iure.</p>
+          <p class="person-info"><b>Principal Engineer, Director at Google</b>. The First Bangladeshi Principal Engineer
+            at one
+            of the world's
+            leading technology companies, Google.</p>
         </div>
         <img style="width: 170px;" class="rounded-circle" src="img/favorite_person/Zaheed Sabur.jpg" alt="">
       </div>
@@ -241,9 +244,9 @@
         <img style="width: 170px;" class="rounded-circle" src="img/favorite_person/Zulkarnine 01.jpg" alt="">
         <div class="media-body mt-4 ml-4">
           <h4>Zulkarnine</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At exercitationem voluptatem nisi aliquam ad
-            consequuntur. Quo quia illum quas ipsam architecto velit cupiditate natus necessitatibus. Blanditiis odit
-            delectus tempora ducimus dolorum architecto itaque ipsa iure.</p>
+          <p class="person-info"><b>Software Engineer at Google’s Search team</b>. Finished Bachelor of Engineering in
+            Mechanical Engineering and
+            CSE (Double major) from Dong-A University. Busan, South Korea under the Korean Government Scholarship.</p>
         </div>
       </div>
     </div>
@@ -393,7 +396,7 @@
   <!-- ********************Start Footer Section******************* -->
   <footer>
     <div class="container">
-      <p class="text-center p-3"> &copy;Rezvi Rayhan 2021, Happy Coading.🥰🥰</p>
+      <p class="text-center p-3"> &copy;Rezvi Rayhan 2021, Happy Coading.🥰🥰💕</p>
 
     </div>
   </footer>
